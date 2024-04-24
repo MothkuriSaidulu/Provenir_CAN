@@ -1,0 +1,10 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC11_SPL_Verify the loan term duration calculation for existing customer with Bi Weekly frequency when CSR change the loan amount and recalculate|TC11_Exing_SPL_Appr_TermRecalc
+###################################################
+***********************************************************
+Start Time : 12_07_2023_14-19-25
+TC11_EXING_SPL_APPR_TERMRECALC
+TC11_EXING_SPL_APPR_TERMRECALC_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer

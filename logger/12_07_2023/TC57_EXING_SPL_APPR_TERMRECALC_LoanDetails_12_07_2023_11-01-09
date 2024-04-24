@@ -1,0 +1,10 @@
+###################################################
+Executing Scenario : TC57Verify the loan term duration calculation for existing customer with Bi Weekly frequency when CSR change the loan amount and recalculate.|TC57_Exing_SPL_Appr_TermRecalc
+###################################################
+***********************************************************
+Start Time : 12_07_2023_11-01-09
+TC57_EXING_SPL_APPR_TERMRECALC
+TC57_EXING_SPL_APPR_TERMRECALC_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin

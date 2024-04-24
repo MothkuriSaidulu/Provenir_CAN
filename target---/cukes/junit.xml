@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="915.852771">
+<testcase classname="PRO_CAN_Online_TC10_Verify_loan_decission_for_New_loan_as_Decile_2_And_Reloan_loan_with_Decile_8" name="TC16_Verify loan decission for New loan as Decile 2 &amp; Reloan loan with Decile8|TC10_new_dec2_reloan_dec8" time="915.852771">
+<system-out><![CDATA[Given Genareted sin.........................................................passed
+And Genareted random six digit accountnumber................................passed
+Given user click on signup customer.........................................passed
+And verify the phonenumber threshold........................................passed
+When Create customer........................................................passed
+And customer chooses IL loan................................................passed
+And Run the TU query decile two.............................................passed
+And User provides basic information.........................................passed
+And select flink opt in.....................................................passed
+And check the flinks income details.........................................passed
+And signed the picra and submit application.................................passed
+Then Send verification code and get and enter otp and validate..............passed
+And verify the funding screen and chosses the funding type..................passed
+And add the bank details....................................................passed
+And upload document.........................................................passed
+And verify the loan status and update loan status in DB.....................passed
+And click on Finalize and e-Sign Loan Documents.............................passed
+And Verify the loan approved amount.........................................passed
+And chosses the either LPP yes or no........................................passed
+And Go Next.................................................................passed
+And Verify the loan documents...............................................passed
+And verify the DB validatioin for reloan....................................passed
+And verify the API validatioins.............................................passed
+And Show request for investigation..........................................passed
+And Show response for investigation.........................................passed
+And verify the DB validatioin...............................................passed
+And verify the API validatioins.............................................passed
+And Show request for investigation..........................................passed
+And Show response for investigation.........................................passed
+And Initialize Loan Details and write to excel..............................passed
+And log all the Loan details in logger for investigation....................passed
+And log all the Loandetail in logger for investigation......................passed
+And log all the Note details in logger for investigation....................passed
+And log all payment details in logger for investigation.....................passed
+And log all the LoanPaymentHeader in logger for investigation...............passed
+And log all the LoanFee in logger for investigation.........................passed
+And log all Transaction details in logger for investigation.................passed
+And log all the CustomerCredit in logger for investigation..................passed
+And log all EFTLog details in logger for investigation......................passed
+And log all ETransferLog details in logger for investigation................passed
+And Backdate loan and get make a payment button.............................passed
+Then Make a full payment....................................................passed
+And Backdate loan 180days...................................................passed
+And Run the TU query general ReRefEa D "6" and FICO score "620".............passed
+And select the reloan new UI................................................passed
+And select the flink consent new UI.........................................passed
+And Verify the customer information new UI..................................passed
+And signed the picra and submit application.................................passed
+Then Send verification code and get and enter otp and validate..............passed
+And upload document.........................................................passed
+And verify the loan status and update loan status in DB.....................passed
+And click on Finalize and e-Sign Loan Documents.............................passed
+And Verify the loan approved amount.........................................passed
+And chosses the either LPP yes or no........................................passed
+And Verify the loan documents...............................................passed
+And verify the DB validatioin for reloan....................................passed
+And verify the API validatioins.............................................passed
+And Show request for investigation..........................................passed
+And Show response for investigation.........................................passed
+And Initialize Loan Details and write to excel..............................passed
+And log all the Loan details in logger for investigation....................passed
+And log all the Loandetail in logger for investigation......................passed
+And log all the Note details in logger for investigation....................passed
+And log all payment details in logger for investigation.....................passed
+And log all the LoanPaymentHeader in logger for investigation...............passed
+And log all the LoanFee in logger for investigation.........................passed
+And log all Transaction details in logger for investigation.................passed
+And log all the CustomerCredit in logger for investigation..................passed
+And log all EFTLog details in logger for investigation......................passed
+And log all ETransferLog details in logger for investigation................passed
+]]></system-out>
+</testcase>
+</testsuite>

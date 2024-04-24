@@ -1,0 +1,29 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC14_Verify Top up loan decision is review when income is less than parent loan.feature.|TC14_IL_TopUp_Review_BOnIncome
+###################################################
+***********************************************************
+Start Time : 24_07_2023_15-28-38
+TC14_IL_TOPUP_REVIEW_BONINCOME
+TC14_IL_TOPUP_REVIEW_BONINCOME_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : And Genareted random six digit accountnumber
+Test Finished : And Genareted random six digit accountnumber
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query decile one
+Test Finished : And Run the TU query decile one
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select flink opt in
+Test Finished : And select flink opt in

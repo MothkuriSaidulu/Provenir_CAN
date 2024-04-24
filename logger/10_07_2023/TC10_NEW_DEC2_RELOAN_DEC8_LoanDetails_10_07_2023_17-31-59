@@ -1,0 +1,25 @@
+###################################################
+Executing Scenario : TC16_Verify loan decission for New loan as Decile 2 & Reloan loan with Decile8|TC10_new_dec2_reloan_dec8
+###################################################
+***********************************************************
+Start Time : 10_07_2023_17-31-59
+TC10_NEW_DEC2_RELOAN_DEC8
+TC10_NEW_DEC2_RELOAN_DEC8_DS1
+***********************************************************
+Test Started : And sign the customer
+Test Finished : And sign the customer
+===Loan status===
+24
+===Loan status===
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Verify the loan approved amount
+Test Finished : And Verify the loan approved amount
+Test Started : And chosses the either LPP yes or no
+Test Finished : And chosses the either LPP yes or no
+***********************************************************
+End Time : 10_07_2023_17-35-33
+***********************************************************
+Tests finished! Number of test Steps : 6

@@ -1,0 +1,33 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC08_Verify_Loan_decission_is_denied_when_Debt_ratio_does_not_fall_in_the_valid_range_allowed|TC08_DebtRatio_Invld_Decl
+###################################################
+***********************************************************
+Start Time : 26_04_2023_15-31-41
+TC08_DEBTRATIO_INVLD_DECL
+TC08_DEBTRATIO_INVLD_DECL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query general D "1" and FICO score "710"
+Test Finished : And Run the TU query general D "1" and FICO score "710"
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select flink opt in
+Test Finished : And select flink opt in
+Test Started : And check the flinks income details
+Test Finished : And check the flinks income details
+***********************************************************
+End Time : 26_04_2023_15-36-35
+***********************************************************
+Tests finished! Number of test Steps : 10

@@ -1,0 +1,25 @@
+###################################################
+Executing Scenario : Proviner New Canada IL Approved flow|TC05_New_IL_Flx_Approved
+###################################################
+***********************************************************
+Start Time : 23_08_2023_10-32-48
+TC05_NEW_IL_FLX_APPROVED
+TC05_NEW_IL_FLX_APPROVED_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://previewc.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+***********************************************************
+End Time : 23_08_2023_10-34-38
+***********************************************************
+Tests finished! Number of test Steps : 6

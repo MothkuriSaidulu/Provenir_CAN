@@ -1,0 +1,25 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC09_Verify_Loan_decission_is_denied_when_annual_income_less_tha_1k|TC09_incomeless1k_Decln
+###################################################
+***********************************************************
+Start Time : 28_04_2023_18-11-05
+TC09_INCOMELESS1K_DECLN
+TC09_INCOMELESS1K_DECLN_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query general D "1" and FICO score "710"
+Test Finished : And Run the TU query general D "1" and FICO score "710"
+Test Started : And User provides basic information
+Test Finished : And User provides basic information

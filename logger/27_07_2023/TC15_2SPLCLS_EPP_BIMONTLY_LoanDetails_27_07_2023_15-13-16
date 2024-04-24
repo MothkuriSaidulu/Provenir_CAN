@@ -1,0 +1,30 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC15_ON_Verify the EPP Terms pay frequency for customer with Bi-Monthly frequency|TC15_2SplCls_EPP_BiMontly
+###################################################
+***********************************************************
+Start Time : 27_07_2023_15-13-16
+TC15_2SPLCLS_EPP_BIMONTLY
+TC15_2SPLCLS_EPP_BIMONTLY_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer
+Test Started : And sign the customer
+Test Finished : And sign the customer
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl reloan
+Test Finished : And User provides basic information for spl reloan
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information Twice a Month - otherwise
+Test Finished : And Provides income information Twice a Month - otherwise
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : Then Send verification code and get and enter otp and validate
+Test Finished : Then Send verification code and get and enter otp and validate
+Test Started : And select the funding types
+Test Finished : And select the funding types
+***********************************************************
+End Time : 27_07_2023_15-18-41
+***********************************************************
+Tests finished! Number of test Steps : 10

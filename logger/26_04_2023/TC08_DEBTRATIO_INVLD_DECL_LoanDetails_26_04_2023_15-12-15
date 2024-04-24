@@ -1,0 +1,40 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC08_Verify_Loan_decission_is_denied_when_Debt_ratio_does_not_fall_in_the_valid_range_allowed|TC08_DebtRatio_Invld_Decl
+###################################################
+***********************************************************
+Start Time : 26_04_2023_15-12-15
+TC08_DEBTRATIO_INVLD_DECL
+TC08_DEBTRATIO_INVLD_DECL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+smqss
+=================Customer Name====================
+=================Customer Email====================
+dave_smqss@yopmail.com
+=================Customer Email====================
+242628
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query general D "1" and FICO score "710"
+Test Finished : And Run the TU query general D "1" and FICO score "710"
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+***********************************************************
+End Time : 26_04_2023_15-15-38
+***********************************************************
+Tests finished! Number of test Steps : 10

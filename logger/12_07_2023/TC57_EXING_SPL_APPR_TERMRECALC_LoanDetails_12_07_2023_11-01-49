@@ -1,0 +1,29 @@
+###################################################
+Executing Scenario : TC57Verify the loan term duration calculation for existing customer with Bi Weekly frequency when CSR change the loan amount and recalculate.|TC57_Exing_SPL_Appr_TermRecalc
+###################################################
+***********************************************************
+Start Time : 12_07_2023_11-01-49
+TC57_EXING_SPL_APPR_TERMRECALC
+TC57_EXING_SPL_APPR_TERMRECALC_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+=================Customer Name====================
+hpwbw
+=================Customer Name====================
+=================Customer Email====================
+dave_hpwbw@yopmail.com
+=================Customer Email====================
+003641
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+#######################PHONENO THREASHOLD############################
+Update VitaCrmCAN..CustomerPhone set PhoneNumber = '9898989898' where CustomerID in (4195114,4236270,4236315,4237103)
+#######################PHONENO THREASHOLD############################
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

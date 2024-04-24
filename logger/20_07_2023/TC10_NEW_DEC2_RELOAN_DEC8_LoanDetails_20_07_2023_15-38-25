@@ -1,0 +1,43 @@
+###################################################
+Executing Scenario : TC16_Verify loan decission for New loan as Decile 2 & Reloan loan with Decile8|TC10_new_dec2_reloan_dec8
+###################################################
+***********************************************************
+Start Time : 20_07_2023_15-38-25
+TC10_NEW_DEC2_RELOAN_DEC8
+TC10_NEW_DEC2_RELOAN_DEC8_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : And Genareted random six digit accountnumber
+Test Finished : And Genareted random six digit accountnumber
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query decile two
+Test Finished : And Run the TU query decile two
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select flink opt in
+Test Finished : And select flink opt in
+Test Started : And check the flinks income details
+Test Finished : And check the flinks income details
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : Then Send verification code and get and enter otp and validate
+Test Finished : Then Send verification code and get and enter otp and validate
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB

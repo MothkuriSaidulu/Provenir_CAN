@@ -1,0 +1,21 @@
+###################################################
+Executing Scenario : TC16_Verify loan decission for New loan as Decile 2 & Reloan loan with Decile8|TC10_new_dec2_reloan_dec8
+###################################################
+***********************************************************
+Start Time : 12_07_2023_17-47-48
+TC10_NEW_DEC2_RELOAN_DEC8
+TC10_NEW_DEC2_RELOAN_DEC8_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : And Genareted random six digit accountnumber
+Test Finished : And Genareted random six digit accountnumber
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer

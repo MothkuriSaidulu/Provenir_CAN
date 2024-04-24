@@ -1,0 +1,20 @@
+###################################################
+Executing Scenario : Proviner New Canada IL Flinks Refi Approved flow|TC06_New_IL_Flx_Refi
+###################################################
+***********************************************************
+Start Time : 24_04_2023_18-03-25
+TC06_NEW_IL_FLX_REFI
+TC06_NEW_IL_FLX_REFI_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+#######################PHONENO THREASHOLD############################
+Update VitaCrmCAN..CustomerPhone set PhoneNumber = '9898989898' where CustomerID in (4236411,4236557,4236559)
+#######################PHONENO THREASHOLD############################
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,34 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC07_SPL_Verify the Net Pay Calculation for Existing Customer Bi-Weekly Frequency|TC07_Exing_SPL_Appr_BiWkly
+###################################################
+***********************************************************
+Start Time : 21_04_2023_16-19-21
+TC07_EXING_SPL_APPR_BIWKLY
+TC07_EXING_SPL_APPR_BIWKLY_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer
+Test Started : And sign the customer
+Test Finished : And sign the customer
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl reloan
+Test Finished : And User provides basic information for spl reloan
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information Every 2 weeks reloan change from Primary
+Test Finished : And Provides income information Every 2 weeks reloan change from Primary
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And enter valid OTP
+Test Finished : And enter valid OTP
+Test Started : And select the bank
+Test Finished : And select the bank
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+***********************************************************
+End Time : 21_04_2023_16-24-22
+***********************************************************
+Tests finished! Number of test Steps : 12

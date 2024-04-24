@@ -1,0 +1,27 @@
+###################################################
+Executing Scenario : TC16_Verify loan decission for New loan as Decile 2 & Reloan loan with Decile8|TC10_new_dec2_reloan_dec8
+###################################################
+***********************************************************
+Start Time : 11_07_2023_16-59-39
+TC10_NEW_DEC2_RELOAN_DEC8
+TC10_NEW_DEC2_RELOAN_DEC8_DS1
+***********************************************************
+Test Started : And sign the customer
+Test Finished : And sign the customer
+Test Started : Then Make a full payment
+Test Finished : Then Make a full payment
+Test Started : And Backdate loan 180days
+Test Finished : And Backdate loan 180days
+Test Started : And Run the TU query decile eight reloan
+Test Finished : And Run the TU query decile eight reloan
+Test Started : And select the reloan new UI
+Test Finished : And select the reloan new UI
+Test Started : And select the flink consent new UI
+Test Finished : And select the flink consent new UI
+Test Started : And Verify the customer information new UI
+Test Finished : And Verify the customer information new UI
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+***********************************************************
+End Time : 11_07_2023_17-04-25
+***********************************************************

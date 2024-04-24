@@ -1,0 +1,41 @@
+###################################################
+Executing Scenario : Proviner New Canada IL Approved flow|TC05_New_IL_Flx_Approved
+###################################################
+***********************************************************
+Start Time : 20_08_2023_12-20-39
+TC05_NEW_IL_FLX_APPROVED
+TC05_NEW_IL_FLX_APPROVED_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://previewc.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query decile one
+Test Finished : And Run the TU query decile one
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select flink opt in
+Test Finished : And select flink opt in
+Test Started : And check the flinks income details
+Test Finished : And check the flinks income details
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : Then Send verification code and get and enter otp and validate
+Test Finished : Then Send verification code and get and enter otp and validate
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+***********************************************************
+End Time : 20_08_2023_12-28-33
+***********************************************************
+Tests finished! Number of test Steps : 14

@@ -1,0 +1,12 @@
+###################################################
+Executing Scenario : PRO_CAN_Retail_TC12_ON_Verify whether user is able to generate  EPP loan when two spl loan closed past within 63 days|TC12_2SplCls_EPP_witn63
+###################################################
+***********************************************************
+Start Time : 13_07_2023_13-10-45
+TC12_2SPLCLS_EPP_WITN63
+TC12_2SPLCLS_EPP_WITN63_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer
+Test Started : And sign the customer
+Test Finished : And sign the customer

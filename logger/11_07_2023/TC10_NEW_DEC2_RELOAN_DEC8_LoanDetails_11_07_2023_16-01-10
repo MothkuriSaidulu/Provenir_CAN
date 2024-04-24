@@ -1,0 +1,16 @@
+###################################################
+Executing Scenario : TC16_Verify loan decission for New loan as Decile 2 & Reloan loan with Decile8|TC10_new_dec2_reloan_dec8
+###################################################
+***********************************************************
+Start Time : 11_07_2023_16-01-10
+TC10_NEW_DEC2_RELOAN_DEC8
+TC10_NEW_DEC2_RELOAN_DEC8_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+***********************************************************
+End Time : 11_07_2023_16-01-26
+***********************************************************
+Tests finished! Number of test Steps : 3

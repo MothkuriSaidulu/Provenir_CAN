@@ -1,0 +1,510 @@
+2023-08-23 11:54:03 INFO  TestBase:89 - Static Initialization done
+2023-08-23 11:54:04 INFO  TestBase:92 - Removed Sheet
+2023-08-23 11:54:04 INFO  TestBase:95 - Added Sheet
+2023-08-23 11:54:04 INFO  Xls_Reader:1030 - Creating empty sheet for report
+2023-08-23 11:54:04 INFO  TestBase:98 - Created Sheet
+2023-08-23 11:54:04 INFO  TestBase:294 - Report folder structure already available : C:\MM\Provenir_Automation_Working\Provenir_CAN\logger\23_08_2023
+2023-08-23 11:54:04 INFO  TestBase:242 - Scenario data initialized.
+2023-08-23 11:54:11 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (642859d6ca8e032ca4c223775e3c2c2b)] -> xpath: (//p)[2]]
+2023-08-23 11:54:11 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:11 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (642859d6ca8e032ca4c223775e3c2c2b)] -> xpath: //input[@id='sin']]
+2023-08-23 11:54:12 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:54:12 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:54:12 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (642859d6ca8e032ca4c223775e3c2c2b)] -> xpath: //input[@value='Validate SIN']]
+2023-08-23 11:54:12 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:54:12 INFO  OnlineActions:53 - Social insurance number 238 015 606 is valid.
+2023-08-23 11:54:16 INFO  CustomListener:74 - Test Started : Given Genareted sin
+2023-08-23 11:54:17 INFO  CustomListener:90 - Test Finished : Given Genareted sin
+2023-08-23 11:54:24 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //span[@class='text underline']]
+2023-08-23 11:54:27 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:54:27 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //span[@class='text underline']]
+2023-08-23 11:54:28 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:54:37 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //a[normalize-space()='Sign Up now']]
+2023-08-23 11:54:37 INFO  OnlineActions:501 - arguments[0].scrollIntoView()
+2023-08-23 11:54:37 INFO  OnlineActions:508 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //a[normalize-space()='Sign Up now']]
+2023-08-23 11:54:37 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:54:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //a[normalize-space()='Sign Up now']]
+2023-08-23 11:54:37 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:54:40 INFO  CustomListener:74 - Test Started : Given user click on signup customer
+2023-08-23 11:54:40 INFO  CustomListener:90 - Test Finished : Given user click on signup customer
+2023-08-23 11:54:50 INFO  MsSqlUtility:63 - --------Connection to SQL Server successfully--------
+2023-08-23 11:54:50 INFO  MsSqlUtility:1060 - --------Table data retrieving successfully--------
+2023-08-23 11:54:50 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:54:50 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 11:54:50 INFO  OnlineActions:84 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:50 INFO  OnlineActions:88 - Printing value of <b>Phone number Threshold: </b> :<b>The provided phone number is within the Threshold count - <b>0</b> for the CustId: <b>0</b></b>
+2023-08-23 11:54:50 INFO  MsSqlUtility:1463 - --------Table data retrieving successfully--------
+2023-08-23 11:54:50 INFO  CustomListener:74 - Test Started : And verify the phonenumber threshold
+2023-08-23 11:54:50 INFO  CustomListener:90 - Test Finished : And verify the phonenumber threshold
+2023-08-23 11:54:50 INFO  OnlineActions:62 - ^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-08-23 11:54:50 INFO  OnlineActions:63 - https://previewc.moneymart.ca/my-account/sign-up
+2023-08-23 11:54:50 INFO  OnlineActions:64 - ^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-08-23 11:54:50 INFO  OnlineActions:183 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:50 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[normalize-space()='Sign up to Money Mart']]
+2023-08-23 11:54:50 INFO  OnlineActions:191 - Actual and Expected texts are equal: Actual is: <b>sign up to money mart</b> and Expected is: <b>sign up to money mart</b>
+2023-08-23 11:54:50 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='firstName']]
+2023-08-23 11:54:50 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:50 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='firstName']]
+2023-08-23 11:54:51 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:54:51 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:51 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='lastName']]
+2023-08-23 11:54:51 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:54:51 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:51 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='dob']]
+2023-08-23 11:54:52 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:54:54 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:54:54 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='phoneNumber']]
+2023-08-23 11:54:57 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:55:00 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:00 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='email']]
+2023-08-23 11:55:01 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:55:01 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:55:01 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@class='mm-select__value']]
+2023-08-23 11:55:01 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:55:01 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:55:01 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='What was your childhood nickname?']]
+2023-08-23 11:55:01 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:55:01 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:01 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@autocomplete='none']]
+2023-08-23 11:55:02 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:55:02 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:02 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='newPassword']]
+2023-08-23 11:55:02 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:55:02 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:02 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='confirmPassword']]
+2023-08-23 11:55:03 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:55:03 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:55:03 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Create Account']]
+2023-08-23 11:55:03 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:55:10 INFO  CustomListener:74 - Test Started : When Create customer
+2023-08-23 11:55:10 INFO  CustomListener:90 - Test Finished : When Create customer
+2023-08-23 11:55:18 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Installment Loan']]
+2023-08-23 11:55:18 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Installment Loan']]
+2023-08-23 11:55:20 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:55:20 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Installment Loan']]
+2023-08-23 11:55:21 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:55:24 INFO  CustomListener:74 - Test Started : And customer chooses IL loan
+2023-08-23 11:55:24 INFO  CustomListener:90 - Test Finished : And customer chooses IL loan
+2023-08-23 11:55:32 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:55:32 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 11:55:32 INFO  MsSqlUtility:63 - --------Connection to SQL Server successfully--------
+2023-08-23 11:55:33 INFO  OnlineActions:84 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:33 INFO  OnlineActions:88 - Printing value of <b>IL TU query status: </b> :<b>New Decile TU query executed successfully for CustID: 4401625</b>
+2023-08-23 11:55:41 INFO  CustomListener:74 - Test Started : And Run the TU query decile one
+2023-08-23 11:55:41 INFO  CustomListener:90 - Test Finished : And Run the TU query decile one
+2023-08-23 11:55:41 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[normalize-space()='Welcome!']]
+2023-08-23 11:55:41 INFO  OnlineActions:183 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:41 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[normalize-space()='Welcome!']]
+2023-08-23 11:55:41 INFO  OnlineActions:191 - Actual and Expected texts are equal: Actual is: <b>welcome!</b> and Expected is: <b>welcome!</b>
+2023-08-23 11:55:41 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:55:41 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@class='mm-select__value']]
+2023-08-23 11:55:41 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:55:41 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:55:41 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[text()='Prince Edward Island']]
+2023-08-23 11:55:42 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:55:57 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@id='sin']]
+2023-08-23 11:55:57 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:55:57 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@id='sin']]
+2023-08-23 11:55:58 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:55:58 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='address']]
+2023-08-23 11:56:02 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='address']]
+2023-08-23 11:56:02 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:56:02 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='address']]
+2023-08-23 11:56:03 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:56:07 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//div[@class='pcaautocomplete pcatext' and contains(@style,'top')]//div[@class='pca pcalist'])[2]]
+2023-08-23 11:56:10 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//div[@class='pcaautocomplete pcatext' and contains(@style,'top')]//div[@class='pca pcalist'])[2]//div[1]]
+2023-08-23 11:56:10 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:10 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//div[@class='pcaautocomplete pcatext' and contains(@style,'top')]//div[@class='pca pcalist'])[2]//div[1]]
+2023-08-23 11:56:10 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:15 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:15 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='No']]
+2023-08-23 11:56:16 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:16 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:16 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//span[@class='mm-checkbox__box'])[1]]
+2023-08-23 11:56:17 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:17 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:17 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//span[@class='mm-checkbox__box'])[2]]
+2023-08-23 11:56:17 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:17 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:17 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@Id='gs-accept']]
+2023-08-23 11:56:18 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:20 INFO  CustomListener:74 - Test Started : And User provides basic information
+2023-08-23 11:56:20 INFO  CustomListener:90 - Test Finished : And User provides basic information
+2023-08-23 11:56:29 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[text()='Verify Your Income']]
+2023-08-23 11:56:29 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:29 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[@id='express']//div[@class='box-content']]
+2023-08-23 11:56:29 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:29 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[text()='Flinks Terms and Conditions']]
+2023-08-23 11:56:29 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //span[contains(text(),'I have read and agree to the Terms and Conditions for Flinks and consent to the Privacy Notice.')]]
+2023-08-23 11:56:30 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:30 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //span[contains(text(),'I have read and agree to the Terms and Conditions for Flinks and consent to the Privacy Notice.')]]
+2023-08-23 11:56:30 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:30 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[text()='Agree and Continue']]
+2023-08-23 11:56:30 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:30 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[text()='Agree and Continue']]
+2023-08-23 11:56:30 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:30 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //iframe[@class='mm-iframe']]
+2023-08-23 11:56:34 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:34 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //a[@title='Flinks Capital International']]
+2023-08-23 11:56:45 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:45 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:56:45 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> id: username]
+2023-08-23 11:56:46 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:56:46 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:56:46 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> id: password]
+2023-08-23 11:56:47 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:56:47 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:47 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 11:56:47 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:56:47 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //td[contains(normalize-space(),'Answer to question')]/following-sibling::td[1]]
+2023-08-23 11:56:57 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:56:57 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> name: mfa-QuestionAndAnswer-0]
+2023-08-23 11:56:57 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:56:57 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:56:57 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 11:56:57 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:57:00 INFO  CustomListener:74 - Test Started : And select flink opt in
+2023-08-23 11:57:00 INFO  CustomListener:90 - Test Finished : And select flink opt in
+2023-08-23 11:57:03 INFO  OnlineActions:114 - Proxy element for: DefaultElementLocator 'By.xpath: //div[normalize-space()='Your Employment Status*']/following::button[1]'
+2023-08-23 11:57:27 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[contains(text(),'Employer*')]/following::input[1]]
+2023-08-23 11:57:37 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:57:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 11:57:37 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:57:38 INFO  CustomListener:74 - Test Started : And check the flinks income details
+2023-08-23 11:57:38 INFO  CustomListener:90 - Test Finished : And check the flinks income details
+2023-08-23 11:57:48 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:57:48 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //span[@class='mm-checkbox__box']]
+2023-08-23 11:57:49 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:57:49 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:57:49 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@id='gs-accept']]
+2023-08-23 11:57:49 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:57:55 INFO  CustomListener:74 - Test Started : And signed the picra and submit application
+2023-08-23 11:57:55 INFO  CustomListener:90 - Test Finished : And signed the picra and submit application
+2023-08-23 11:57:55 INFO  OnlineActions:183 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:57:55 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[normalize-space()='Verify your mobile number']]
+2023-08-23 11:57:55 INFO  OnlineActions:191 - Actual and Expected texts are equal: Actual is: <b>verify your mobile number</b> and Expected is: <b>verify your mobile number</b>
+2023-08-23 11:57:55 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Send Verification Code']]
+2023-08-23 11:57:55 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:57:55 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Send Verification Code']]
+2023-08-23 11:57:56 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:58:01 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:58:01 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:58:01 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 11:58:01 INFO  MsSqlUtility:63 - --------Connection to SQL Server successfully--------
+2023-08-23 11:58:01 INFO  MsSqlUtility:4573 - --------Table data retrieving successfully--------
+2023-08-23 11:58:03 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:58:03 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[1]]
+2023-08-23 11:58:03 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 11:58:05 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Validate']]
+2023-08-23 11:58:05 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:58:05 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Validate']]
+2023-08-23 11:58:06 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:58:11 INFO  CustomListener:74 - Test Started : Then Send verification code and get and enter otp and validate
+2023-08-23 11:58:11 INFO  CustomListener:90 - Test Finished : Then Send verification code and get and enter otp and validate
+2023-08-23 11:58:50 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[@class='box-content-funding-dd']]
+2023-08-23 11:58:50 INFO  OnlineActions:305 - --------	mouseOverAndClick wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:58:50 INFO  OnlineActions:313 - --------	mouseOverAndClick wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:58:52 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:58:52 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 11:58:53 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:58:53 INFO  CustomListener:74 - Test Started : And verify the funding screen and chosses the funding type
+2023-08-23 11:58:53 INFO  CustomListener:90 - Test Finished : And verify the funding screen and chosses the funding type
+2023-08-23 11:58:53 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[contains(text(),'Flinks')]]
+2023-08-23 11:58:55 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:58:55 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[contains(text(),'Flinks')]]
+2023-08-23 11:58:55 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:58:55 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@form='offer-form' and normalize-space()='Continue']]
+2023-08-23 11:58:58 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:58:58 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@form='offer-form' and normalize-space()='Continue']]
+2023-08-23 11:58:58 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:58:58 INFO  CustomListener:74 - Test Started : And select the bank Flinks
+2023-08-23 11:58:58 INFO  CustomListener:90 - Test Finished : And select the bank Flinks
+2023-08-23 11:58:58 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h1[text()='Almost done!']]
+2023-08-23 11:59:00 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:59:00 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Upload Documents']]
+2023-08-23 11:59:01 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:59:01 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//span[text()='Click here to upload'])[1]]
+2023-08-23 11:59:01 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:59:01 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: (//span[text()='Click here to upload'])[1]]
+2023-08-23 11:59:01 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:59:07 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Submit document(s)']]
+2023-08-23 11:59:07 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:59:07 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Submit document(s)']]
+2023-08-23 11:59:07 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:59:07 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //i[@class='mm-icon iconuploaded mm-icon--check-circle']]
+2023-08-23 11:59:08 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:59:08 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Go to Dashboard']]
+2023-08-23 11:59:08 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:59:09 INFO  CustomListener:74 - Test Started : And upload document
+2023-08-23 11:59:09 INFO  CustomListener:90 - Test Finished : And upload document
+2023-08-23 11:59:13 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:506 - --------Table data retrieving successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 11:59:13 INFO  MsSqlUtility:1622 - --------Table data updated successfully--------
+2023-08-23 11:59:13 INFO  CustomListener:74 - Test Started : And verify the loan status and update loan status in DB
+2023-08-23 11:59:13 INFO  CustomListener:90 - Test Finished : And verify the loan status and update loan status in DB
+2023-08-23 11:59:23 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //strong[normalize-space()='Action Required']]
+2023-08-23 11:59:26 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[@title='Withdraw Loan Application']]
+2023-08-23 11:59:26 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[text()='Finalize and e-Sign Loan Documents']]
+2023-08-23 11:59:26 INFO  OnlineActions:84 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:59:26 INFO  OnlineActions:88 - Printing value of <b>Loan application status</b> :<b>Loan application is updated after CRM approval</b>
+2023-08-23 11:59:26 INFO  OnlineActions:84 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:59:26 INFO  OnlineActions:88 - Printing value of <b>Loan Status After CRM approval(Online application refreshed for update loan status) </b> :<b>Action Required</b>
+2023-08-23 11:59:37 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:59:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[text()='Finalize and e-Sign Loan Documents']]
+2023-08-23 11:59:47 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:59:51 INFO  CustomListener:74 - Test Started : And click on Finalize and e-Sign Loan Documents
+2023-08-23 11:59:51 INFO  CustomListener:90 - Test Finished : And click on Finalize and e-Sign Loan Documents
+2023-08-23 11:59:53 INFO  OnlineActions:183 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:59:53 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[@class='mm-congrats-header']]
+2023-08-23 11:59:53 INFO  OnlineActions:191 - Actual and Expected texts are equal: Actual is: <b>congratulations!</b> and Expected is: <b>congratulations!</b>
+2023-08-23 11:59:53 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@class='mm-nonav-btn mm-btn--lg mm-btn--primary fill']]
+2023-08-23 11:59:58 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 11:59:58 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@class='mm-nonav-btn mm-btn--lg mm-btn--primary fill']]
+2023-08-23 11:59:58 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 11:59:58 INFO  OnlineActions:183 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 11:59:58 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //h2[contains(text(),'Congratulations you are approved for an installmen')]]
+2023-08-23 11:59:58 INFO  OnlineActions:191 - Actual and Expected texts are equal: Actual is: <b>congratulations you are approved for an installment loan</b> and Expected is: <b>congratulations you are approved for an installment loan</b>
+2023-08-23 11:59:58 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 12:00:01 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:01 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 12:00:01 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:02 INFO  CustomListener:74 - Test Started : And Verify the loan approved amount
+2023-08-23 12:00:02 INFO  CustomListener:90 - Test Finished : And Verify the loan approved amount
+2023-08-23 12:00:06 INFO  OnlineActions:183 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 12:00:06 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //form[@id='offer-form']//div//h1]
+2023-08-23 12:00:06 INFO  OnlineActions:191 - Actual and Expected texts are equal: Actual is: <b>great news - you're approved!</b> and Expected is: <b>great news - you're approved!</b>
+2023-08-23 12:00:06 INFO  OnlineActions:501 - arguments[0].scrollIntoView()
+2023-08-23 12:00:06 INFO  OnlineActions:508 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //strong[text()='Approved loan amount']//parent::div//following-sibling::div//input]
+2023-08-23 12:00:08 INFO  OnlineActions:501 - arguments[0].scrollIntoView()
+2023-08-23 12:00:08 INFO  OnlineActions:508 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[contains(text(),'Confirm your loan details')]]
+2023-08-23 12:00:14 INFO  OnlineActions:501 - arguments[0].scrollIntoView()
+2023-08-23 12:00:14 INFO  OnlineActions:508 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[text()='*Loan Protection Plan']]
+2023-08-23 12:00:18 INFO  OnlineActions:305 - --------	mouseOverAndClick wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:19 INFO  OnlineActions:313 - --------	mouseOverAndClick wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:19 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 12:00:19 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:19 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='Continue']]
+2023-08-23 12:00:20 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:21 INFO  CustomListener:74 - Test Started : And chosses the either LPP yes or no
+2023-08-23 12:00:21 INFO  CustomListener:90 - Test Finished : And chosses the either LPP yes or no
+2023-08-23 12:00:21 INFO  OnlineActions:151 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@form='offer-form' and normalize-space()='Continue']]
+2023-08-23 12:00:23 INFO  OnlineActions:501 - arguments[0].scrollIntoView()
+2023-08-23 12:00:23 INFO  OnlineActions:508 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@form='offer-form' and normalize-space()='Continue']]
+2023-08-23 12:00:25 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:25 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[@form='offer-form' and normalize-space()='Continue']]
+2023-08-23 12:00:25 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:26 INFO  CustomListener:74 - Test Started : And Go Next
+2023-08-23 12:00:26 INFO  CustomListener:90 - Test Finished : And Go Next
+2023-08-23 12:00:26 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //p[@class='step-4-of-4-review pt-2' or contains(normalize-space(),'Step 3 of 3: Review and sign these documents — then we’ll send your money.')]]
+2023-08-23 12:00:29 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:29 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //u[normalize-space()='Loan Agreement']/following::span[1]]
+2023-08-23 12:00:29 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:29 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:29 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //u[normalize-space()='Loan Amortization']/following::span[1]]
+2023-08-23 12:00:29 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:29 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:29 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //u[normalize-space()='Auto-Payment Authorization']/following::span[1]]
+2023-08-23 12:00:30 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:30 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:30 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //u[normalize-space()='Standard Term Loan Protection Plan Summary']/following::span[1]]
+2023-08-23 12:00:30 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:30 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:30 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //u[normalize-space()='Application to Enroll for Optional Creditor Protection Insurance (LPP)']/following::span[1]]
+2023-08-23 12:00:30 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:33 INFO  OnlineActions:240 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2023-08-23 12:00:33 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //input[@name='signature']]
+2023-08-23 12:00:33 INFO  OnlineActions:247 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2023-08-23 12:00:36 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:36 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[@class='mm-document-box__checkbox']//span[@class='mm-checkbox__box']]
+2023-08-23 12:00:37 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //div[@class='mm-document-box__checkbox']//span[@class='mm-checkbox__box']]
+2023-08-23 12:00:37 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //u[normalize-space()='Certificate of Insurance']/following::span[1]]
+2023-08-23 12:00:37 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //button[normalize-space()='I Agree']]
+2023-08-23 12:00:37 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:37 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //a[normalize-space()='Back to Dashboard']]
+2023-08-23 12:00:42 INFO  OnlineActions:263 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2023-08-23 12:00:42 INFO  OnlineActions:114 - [[ChromeDriver: chrome on XP (85ec83102d0ed28e5ef83b66d0b53e3a)] -> xpath: //a[normalize-space()='Back to Dashboard']]
+2023-08-23 12:00:43 INFO  OnlineActions:272 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2023-08-23 12:00:51 INFO  CustomListener:74 - Test Started : And Verify the loan documents
+2023-08-23 12:00:51 INFO  CustomListener:90 - Test Finished : And Verify the loan documents
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:586 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:00:55 INFO  MsSqlUtility:506 - --------Table data retrieving successfully--------
+2023-08-23 12:01:00 INFO  CustomListener:74 - Test Started : And verify the DB validatioin
+2023-08-23 12:01:00 INFO  CustomListener:90 - Test Finished : And verify the DB validatioin
+2023-08-23 12:01:02 INFO  TestRestAssured:134 - RestAssured.baseURI
+2023-08-23 12:01:07 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:07 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:07 INFO  MsSqlUtility:93 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:07 INFO  MsSqlUtility:135 - --------Table data retrieving successfully--------
+2023-08-23 12:01:19 INFO  CustomListener:74 - Test Started : And verify the API validatioins
+2023-08-23 12:01:19 INFO  CustomListener:90 - Test Finished : And verify the API validatioins
+2023-08-23 12:01:20 INFO  CustomListener:74 - Test Started : And Show request for investigation
+2023-08-23 12:01:20 INFO  CustomListener:90 - Test Finished : And Show request for investigation
+2023-08-23 12:01:20 INFO  CustomListener:74 - Test Started : And Show response for investigation
+2023-08-23 12:01:20 INFO  CustomListener:90 - Test Finished : And Show response for investigation
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:586 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:21 INFO  MsSqlUtility:506 - --------Table data retrieving successfully--------
+2023-08-23 12:01:24 INFO  CustomListener:74 - Test Started : And Initialize Loan Details and write to excel
+2023-08-23 12:01:24 INFO  CustomListener:90 - Test Finished : And Initialize Loan Details and write to excel
+2023-08-23 12:01:24 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:24 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:24 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:24 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:24 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:24 INFO  MsSqlUtility:3315 - ###################################################
+2023-08-23 12:01:24 INFO  MsSqlUtility:3316 - select CAST(CustomerId as VARCHAR(15)) AS CustomerId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(ParentLoanId AS VARCHAR(15)) AS ParentLoanId, CAST(channeltypeid as VARCHAR(15)) as channeltypeid, CAST(EffectiveDate as VARCHAR(25)) as EffectiveDate,CAST(APR AS VARCHAR(10)) AS APR, CAST(StateCode as VARCHAR(5)) as StateCode, CAST(LoanContractNumber AS VARCHAR(25)) AS LoanContractNumber, CAST(LoanStatusId as VARCHAR(5)) as LoanStatusId, CAST(LoanTypeId as VARCHAR(5)) as LoanTypeId,CAST(TotalAmount as VARCHAR(10)) as TotalAmount,CAST(Principal as VARCHAR(10)) as Principal,CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId,CAST(RepaymentTypeId as VARCHAR(5)) as RepaymentTypeId from VitaPDLCANETL..Loan where LoanId = '21626019'
+2023-08-23 12:01:24 INFO  MsSqlUtility:3317 - ###################################################
+2023-08-23 12:01:25 INFO  MsSqlUtility:3428 - --------Table data retrieving successfully--------
+2023-08-23 12:01:25 INFO  CustomListener:74 - Test Started : And log all the Loan details in logger for investigation
+2023-08-23 12:01:25 INFO  CustomListener:90 - Test Finished : And log all the Loan details in logger for investigation
+2023-08-23 12:01:25 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:25 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:26 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:26 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:26 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:26 INFO  MsSqlUtility:3472 - ###################################################
+2023-08-23 12:01:26 INFO  MsSqlUtility:3473 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(RefinanceCount AS VARCHAR(15)) AS RefinanceCount, CAST(LoanTerm as VARCHAR(15)) as LoanTerm  from VitaPDLCANETL..LoanDetail where LoanId = '21626019'
+2023-08-23 12:01:26 INFO  MsSqlUtility:3474 - ###################################################
+2023-08-23 12:01:27 INFO  MsSqlUtility:3549 - --------Table data retrieving successfully--------
+2023-08-23 12:01:27 INFO  CustomListener:74 - Test Started : And log all the Loandetail in logger for investigation
+2023-08-23 12:01:27 INFO  CustomListener:90 - Test Finished : And log all the Loandetail in logger for investigation
+2023-08-23 12:01:27 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:27 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:27 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:27 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:27 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:27 INFO  MsSqlUtility:3946 - ###################################################
+2023-08-23 12:01:27 INFO  MsSqlUtility:3947 - select Note, Other from VitaPDLCANETL..LoanNote where LoanId = '21626019'
+2023-08-23 12:01:27 INFO  MsSqlUtility:3948 - ###################################################
+2023-08-23 12:01:28 INFO  MsSqlUtility:4019 - --------Table data retrieving successfully--------
+2023-08-23 12:01:28 INFO  CustomListener:74 - Test Started : And log all the Note details in logger for investigation
+2023-08-23 12:01:28 INFO  CustomListener:90 - Test Finished : And log all the Note details in logger for investigation
+2023-08-23 12:01:29 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:29 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:29 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:29 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:29 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:29 INFO  MsSqlUtility:4064 - ###################################################
+2023-08-23 12:01:29 INFO  MsSqlUtility:4065 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(Amount as VARCHAR(15)) AS Amount, CAST(Principal as VARCHAR(15)) AS Principal, CAST(Returned AS VARCHAR(5)) AS Returned, CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId, CAST(LoanPaymentStatusId as VARCHAR(5)) as LoanPaymentStatusId from VitaPDLCANETL..LoanPayment where LoanId = '21626019'
+2023-08-23 12:01:29 INFO  MsSqlUtility:4066 - ###################################################
+2023-08-23 12:01:30 INFO  MsSqlUtility:4142 - --------Table data retrieving successfully--------
+2023-08-23 12:01:30 INFO  CustomListener:74 - Test Started : And log all payment details in logger for investigation
+2023-08-23 12:01:30 INFO  CustomListener:90 - Test Finished : And log all payment details in logger for investigation
+2023-08-23 12:01:30 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:30 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:30 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:30 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:30 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:30 INFO  MsSqlUtility:3592 - ###################################################
+2023-08-23 12:01:30 INFO  MsSqlUtility:3593 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(PaymentAmount AS VARCHAR(15)) AS PaymentAmount, CAST(MonthlyPaymentAmount as VARCHAR(15)) as MonthlyPaymentAmount  from VitaPDLCANETL..LoanPaymentHeader where LoanId = '21626019'
+2023-08-23 12:01:30 INFO  MsSqlUtility:3594 - ###################################################
+2023-08-23 12:01:31 INFO  MsSqlUtility:3667 - --------Table data retrieving successfully--------
+2023-08-23 12:01:31 INFO  CustomListener:74 - Test Started : And log all the LoanPaymentHeader in logger for investigation
+2023-08-23 12:01:31 INFO  CustomListener:90 - Test Finished : And log all the LoanPaymentHeader in logger for investigation
+2023-08-23 12:01:31 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:31 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:31 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:31 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:31 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:31 INFO  MsSqlUtility:3709 - ###################################################
+2023-08-23 12:01:31 INFO  MsSqlUtility:3710 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CalculatedValue AS VARCHAR(15)) AS FeeCalculatedValue  from VitaPDLCANETL..LoanFee where LoanId = '21626019'
+2023-08-23 12:01:31 INFO  MsSqlUtility:3711 - ###################################################
+2023-08-23 12:01:32 INFO  MsSqlUtility:3780 - --------Table data retrieving successfully--------
+2023-08-23 12:01:32 INFO  CustomListener:74 - Test Started : And log all the LoanFee in logger for investigation
+2023-08-23 12:01:32 INFO  CustomListener:90 - Test Finished : And log all the LoanFee in logger for investigation
+2023-08-23 12:01:32 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:32 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:32 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:32 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:32 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:32 INFO  MsSqlUtility:4186 - ###################################################
+2023-08-23 12:01:32 INFO  MsSqlUtility:4187 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(TransactionTypeId as VARCHAR(15)) as TransactionTypeId, CAST(Amount as VARCHAR(15)) as Amount, CAST(Principal as VARCHAR(15)) as Principal, CAST(CreatedByUserName as VARCHAR(15)) as CreatedByUserName from VitaPDLCANETL..LoanTransaction where LoanId = '21626019'
+2023-08-23 12:01:32 INFO  MsSqlUtility:4188 - ###################################################
+2023-08-23 12:01:34 INFO  MsSqlUtility:4265 - --------Table data retrieving successfully--------
+2023-08-23 12:01:34 INFO  CustomListener:74 - Test Started : And log all Transaction details in logger for investigation
+2023-08-23 12:01:34 INFO  CustomListener:90 - Test Finished : And log all Transaction details in logger for investigation
+2023-08-23 12:01:34 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:34 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:34 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:34 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:34 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:34 INFO  MsSqlUtility:3827 - ###################################################
+2023-08-23 12:01:34 INFO  MsSqlUtility:3828 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(Customerid AS VARCHAR(15)) AS Customerid, CAST(CreditLimit AS VARCHAR(15)) AS CreditLimit, CAST(CreditScore AS VARCHAR(15)) AS CreditScore  from VitaPDLCANETL..CustomerCredit where LoanId = '21626019'
+2023-08-23 12:01:34 INFO  MsSqlUtility:3829 - ###################################################
+2023-08-23 12:01:35 INFO  MsSqlUtility:3904 - --------Table data retrieving successfully--------
+2023-08-23 12:01:35 INFO  CustomListener:74 - Test Started : And log all the CustomerCredit in logger for investigation
+2023-08-23 12:01:35 INFO  CustomListener:90 - Test Finished : And log all the CustomerCredit in logger for investigation
+2023-08-23 12:01:35 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:35 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:35 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:35 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:35 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:35 INFO  MsSqlUtility:4307 - ###################################################
+2023-08-23 12:01:35 INFO  MsSqlUtility:4308 - select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(EFTRequest as VARCHAR(2000)) AS EFTRequest from VitaPDLCANETL..EFTLog where LoanId = '21626019'
+2023-08-23 12:01:35 INFO  MsSqlUtility:4309 - ###################################################
+2023-08-23 12:01:36 INFO  MsSqlUtility:4352 - --------Table data retrieving successfully--------
+2023-08-23 12:01:36 INFO  CustomListener:74 - Test Started : And log all EFTLog details in logger for investigation
+2023-08-23 12:01:36 INFO  CustomListener:90 - Test Finished : And log all EFTLog details in logger for investigation
+2023-08-23 12:01:36 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:36 INFO  MsSqlUtility:270 - --------Table data retrieving successfully--------
+2023-08-23 12:01:36 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:36 INFO  MsSqlUtility:371 - --------Table data retrieving successfully--------
+2023-08-23 12:01:36 INFO  MsSqlUtility:206 - --------Connection to SQL Server successfully--------
+2023-08-23 12:01:36 INFO  MsSqlUtility:4400 - ###################################################
+2023-08-23 12:01:36 INFO  MsSqlUtility:4401 - select CAST(ETransferLogId as VARCHAR(15)) AS ETransferLogId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(LoanPaymentId as VARCHAR(15)) AS LoanPaymentId , CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(ETransferRequest as VARCHAR(2000)) AS ETransferRequest,CAST(ETransferResponse as VARCHAR(2000)) AS ETransferResponse from VitaPDLCANETL..ETransferLog where LoanId = '21626019'
+2023-08-23 12:01:36 INFO  MsSqlUtility:4402 - ###################################################
+2023-08-23 12:01:37 INFO  MsSqlUtility:4449 - --------Table data retrieving successfully--------
+2023-08-23 12:01:37 INFO  CustomListener:74 - Test Started : And log all ETransferLog details in logger for investigation
+2023-08-23 12:01:37 INFO  CustomListener:90 - Test Finished : And log all ETransferLog details in logger for investigation
+2023-08-23 12:01:37 INFO  hooks:187 - ===onTestSuccess Start===
+2023-08-23 12:01:41 INFO  TestBase:278 - ===getTestCasePositionBasedOnScriptName Started====
+2023-08-23 12:01:41 INFO  hooks:282 - TEST CASE NOT AVAILABLE WITH REFERENCE TO TEST SCRIPT
+2023-08-23 12:01:41 INFO  hooks:298 - Writing of excel report done
+2023-08-23 12:01:41 INFO  hooks:201 - Driver closed
+2023-08-23 12:01:43 INFO  CustomListener:35 - Tests finished! Number of test Steps: 36

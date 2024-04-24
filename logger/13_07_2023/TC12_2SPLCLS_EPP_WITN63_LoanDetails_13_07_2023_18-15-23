@@ -1,0 +1,197 @@
+###################################################
+Executing Scenario : PRO_CAN_Retail_TC12_ON_Verify whether user is able to generate  EPP loan when two spl loan closed past within 63 days|TC12_2SplCls_EPP_witn63
+###################################################
+***********************************************************
+Start Time : 13_07_2023_18-15-23
+TC12_2SPLCLS_EPP_WITN63
+TC12_2SPLCLS_EPP_WITN63_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer
+Test Started : And sign the customer
+Test Finished : And sign the customer
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl reloan
+Test Finished : And User provides basic information for spl reloan
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information Monthly
+Test Finished : And Provides income information Monthly
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : Then Send verification code and get and enter otp and validate
+Test Finished : Then Send verification code and get and enter otp and validate
+Test Started : And select the funding types
+Test Finished : And select the funding types
+Test Started : And select the bank
+Test Finished : And select the bank
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Loan approved final offer
+Test Finished : And Loan approved final offer
+Test Started : And funding and payment confirmation
+Test Finished : And funding and payment confirmation
+Test Started : And esing document SPL and back to dashboard
+Test Finished : And esing document SPL and back to dashboard
+Test Started : And verify the DB validatioin for reloan
+Test Finished : And verify the DB validatioin for reloan
+###################################################
+https://mmartfs-qa.provenirweb.com/ProvWeb/ezapi/EZApiDEGroupUnderwriting
+###################################################
+######################REQUEST FROM DB START#############################
+{"Customer":{"CustomerId":"4241256","FirstName":"AUTOMATION","MiddleName":null,"LastName":"EPP","GovernmentNumber":"0","DateOfBirth":"1980-01-01T00:00:00","Email":"automationepp@yopmail.com","IsUnemployed":false,"NMMEmployee":false,"OccupationName":"ACCOUNTANT","NoOfDependents":0,"MaritalStatus":"","SpouseEmployed":null,"PriorMonthNetPay":6000.0,"SelfEmployed":false,"EmployerList":[{"CustomerEmployerId":10710154,"EmployerName":"BMW","CountryCode":"CAN","Phone":"9090919191","HireDate":null,"PayPeriod":"MONTHLY","LastPayDate":"2023-06-25T00:00:00","NetPay":6000.0000,"GrossPay":null,"DirectDeposit":true,"PrimaryIncome":true,"NextPayDate":"2023-07-25T00:00:00","SecondPayDate":null,"EmploymentType":"WAGES","EmploymentStatus":"Full Time Employment","WeekNumber":0,"DayOfWeek":0,"DayOfMonth":25,"PayPeriodTypeName":null,"LastDayOfMonth":null}],"PhoneList":[{"PhoneNumber":"2267306306","PhoneTypeName":"CELL"}],"Address":{"Address1":"POBOX","Address2":"111","Address3":"MAIN STREET EPP","City":"WINDSOR","State":"ON","PostalCode":"L9L1L7","CountryCode":"CAN"},"Expenditure":{"MonthlyChildSupportExpense":0.0,"MonthlyAlimonyExpense":0.0,"MonthlyPayJudgementExpense":0.0,"OtherMonthlyAmount":0.0}},"LoanHistory":[{"LoanId":44798501,"LoanType":"SPL","LoanStatus":"Closed","OriginationDate":"2023-07-13T01:34:26.427","PaidDate":"2023-07-13T01:39:54.993","Duedate":"2023-07-25T00:00:00","Principal":200.0000,"Fee":30.0000,"ChannelType":"RPOS"},{"LoanId":44798502,"LoanType":"SPL","LoanStatus":"Closed","OriginationDate":"2023-07-13T01:42:09.643","PaidDate":"2023-07-13T01:44:26.497","Duedate":"2023-07-25T00:00:00","Principal":200.0000,"Fee":30.0000,"ChannelType":"RPOS"}],"CurrentInstallmentLoan":null,"TUCredit":null,"LoanApplication":{"LoanType":"EPP","LoanPurpose":null,"IsRental":false,"RentalAmount":0.0,"NMMPastDueAccounts":[],"LPPApplicable":true,"IsFlinks":false,"ApplicationType":"New","CoolOffTillDate":"0001-01-01T00:00:00","ModelInput":[{"Key":"CheckCashingCount365","Value":"0"},{"Key":"CountLoansPast365Days","Value":"2"},{"Key":"ValueReturnedPast30Days","Value":"0"},{"Key":"ValueReturnedPast365Days","Value":"0"},{"Key":"Returned30vs365Indicator","Value":""}],"SessionId":"cac9cb6c-cc2b-4966-b78c-fda8d11d1107","SecuringType":"EFT","IsDownSellApplicable":false,"DownSellLoanType":"SPL","ExceedsDQThreshold":false},"Fraud":{"Hotlist":{"SameAddressByOtherCustomerCount":1,"SamePhoneByOtherCustomerCount":1,"SameEmailByOtherCustomerCount":1,"SameIPByOtherCustomerCount":0,"SameBankAcctByOtherCustomerCount":0,"DeceasedAccount":false,"ConfirmedFraud":false},"iOvation":{"BlackboxString":"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","StatedIPAddress":"","PageType":"Canada Online Loans"},"Flinks":null,"CoreSystem":{"ParentApplicationNetMonthlyIncome":0.0,"MultipleApplicationsInLast30Days":false},"ExternalReviews":null,"IsFraudFlowApplicable":true},"ScheduleDates":["2023-07-25T00:00:00","2023-08-25T00:00:00"],"ApplicationSource":{"ExternalLending":{"IsExternalLending":false,"ExternalLender":null},"ChannelType":"ONLINE","StoreNumber":"9997","User":"123","UserName":null,"FinancialPeriod":"2023-03-09T00:00:00","CallerDateTime":"2023-07-13T07:49:09.1249366-05:00","WorkStationId":0,"LocationId":"414","StateCode":"ON","CountryCode":"CAN","StorePostalCode":"PK0 L1C0","IpAddress":""}}
+######################REQUEST FROM DB END#############################
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@RESPONSE VALIDATION FROM API@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Existing
+
+Review
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@RESPONSE VALIDATION FROM API@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+######################RESPONSE FROM API START#############################
+{ "SessionID" : "cac9cb6c-cc2b-4966-b78c-fda8d11d1107", "CreditResponse" : { "Request" : "", "CreditData" : "" }, "Model" :  [ { } , { } , { } , { "ModelName" : "CaSPLML", "Output" : { "ScoreProb" : "0.6445130268231356", "Segment" : "", "Score" : "0", "ReasonCode1" : "", "ReasonCode2" : "", "ReasonCode3" : "", "ReasonCode4" : "", "Reason1Contri" : "0", "Reason2Contri" : "0", "Reason3Contri" : "0", "Reason4Contri" : "0" }, "Input" : { "CustomerId" : "4241256", "LocationNumber" : 9997, "loantypeid" : "EPP", "channeltypeid" : "ONLINE", "CustPostalCode" : "L9L1L7", "StorePostalCode" : "PK0L1C0", "IL_Del_last_3yr_nbr" : null, "spl_fpd_freq_monthly_3yrs" : null, "spl_top_store_count_3yrs" : null, "spl_days_since_recent_dpd30_3yrs" : null, "spl_funded_last_3yr_nbr" : null, "spl_inc_occur_pct_princ_3yrs" : null, "IL_returned_payments_last_30d_nbr" : null, "IL_ACH_payments_last_365d_nbr" : null, "IL_reject_last_3yr_ratio" : null, "spl_ach_pay_nbr_pct_3yrs" : null, "spl_payments_nbr_3yrs" : null, "spl_recent_util_3yrs" : null, "spl_avg_util_3yrs" : null, "spl_recent_term_util_3yrs" : null, "spl_cust_age_nbr_since_3yr" : null, "spl_cash_pay_nbr_3yrs" : null, "spl_booked_freq_monthly_3yrs" : null, "spl_dec_occur_pct_util_3yrs" : null, "spl_passdue_last_3yr_nbr" : null, "spl_funded_last_365dd_nbr" : null, "spl_unpaid_last_3yr_amt" : null, "spl_dec_occur_pct_tenure_3yrs" : null, "spl_top_channel_3yrs" : "", "spl_top_loantype_3yrs" : "", "spl_top_address_postalcd_3yrs" : "", "spl_top_storenumber_3yrs" : null, "spl_recent_pause_3yrs" : null, "spl_avg_pause_3yrs" : null, "spl_stdev_pause_3yrs" : null, "distance" : null } } , { }  ], "OverallDecision" :  [ { "IsDownSellApplication" : null, "Decision" : "Review", "CustomerSegmentation" : "Existing", "CreditDecision" : "Approved", "ApprovedDate" : "2023-07-13T12:54:49", "APR" : 15.0, "ApplicationType" : "", "LoanType" : "EPP", "IsRefiExtension" : false, "TermInfoList" :  [ { "MaxLoanAmount" : 200, "MinLoanAmount" : 50, "Term" : 0, "MaxLoanAmountWithLPP" : 0 } ], "ScoringVariable" :  [ { "Name" : "CustomerAge", "Value" : "43.0" } , { "Name" : "DelinquentAmount", "Value" : "0.0" } , { "Name" : "DelinquentDays", "Value" : "0.0" } , { "Name" : "CustomerTypeForFraud", "Value" : "Existing" } , { "Name" : "ValueReturnedPast30Days", "Value" : "0.0" } , { "Name" : "ValueReturnedPast365Days", "Value" : "0.0" } , { "Name" : "Returned30vs365Indicator", "Value" : "" } , { "Name" : "Score", "Value" : "0.6445130268231356" } , { "Name" : "MatrixName", "Value" : "Ver 0.1" } , { "Name" : "Bucket", "Value" : "" } , { "Name" : "Leverage", "Value" : "50.0" } , { "Name" : "NetpayFrom", "Value" : "" } , { "Name" : "NetpayTo", "Value" : "" } , { "Name" : "CustomerPercent", "Value" : "" } , { "Name" : "CustomerNetPay", "Value" : "6000.0" } , { "Name" : "ScoringVersion", "Value" : "Ver 0.1" } , { "Name" : "ScoringTime", "Value" : "" } , { "Name" : "CountLoansPast365Days", "Value" : "2.0" } , { "Name" : "PreviousNetPay", "Value" : "6000.0" } , { "Name" : "NumberOfPDLInLast365Days", "Value" : "2.0" } , { "Name" : "ScoreFrom", "Value" : "0.0" } , { "Name" : "ScoreTo", "Value" : "0.797" } , { "Name" : "UseScoringModel", "Value" : "1" } , { "Name" : "Rounding", "Value" : "1" } , { "Name" : "IsNewCustomerForScoring", "Value" : "0" } , { "Name" : "MaxAmount", "Value" : "200.0" } , { "Name" : "ScoreModelID", "Value" : "Ver 0.1" } , { "Name" : "OverriddenLeverage", "Value" : "" } , { "Name" : "ProvincialMaxline", "Value" : "" } , { "Name" : "RiskType", "Value" : "High Risk" } , { "Name" : "DirectDeposit", "Value" : "true" } , { "Name" : "PayPeriod", "Value" : "MONTHLY" } ], "ReviewReasons" :  [ { "Code" : "GENERAL_REVIEW", "Reason" : "Technical Error while fraud verification", "Type" : "TechnicalError", "Documents" :  [ "PROOFOFIDENTITY, PROOFOFINCOME" ] } , { "Code" : "Existing customer reapplies within 7 business days of closing previous loan", "Reason" : "Existing customer reapplies within 7 business days of closing previous loan", "Type" : "FraudAlert", "Documents" :  [ "PROOFOFIDENTITY" ] } , { "Code" : "NonFlinksValidateIncome", "Reason" : "SPLNONFLINKSCUSTOMER", "Type" : "FraudAlert", "Documents" :  [ "PROOFOFINCOME" ] } , { "Code" : "FraudDecision", "Reason" : "Allowable: mobile", "Type" : "FraudFlag", "Documents" :  [ ] } ] } ], "VerificationResponse" : { "PhoneVerificationRequired" : false, "PhoneVerification" : { "IsSMSSent" : false, "IDVerification" : { "Response" : "{\"requestId\":\"4241256\",\"status\":1002,\"description\":\"Subscriber is not found on the required whitelist.\"}", "Request" : "{ \"firstName\" : \"AUTOMATION\", \"lastName\" : \"EPP\", \"requestId\" : \"4241256\", \"postalCode\" : \"L9L1L7\", \"region\" : \"ON\", \"city\" : \"WINDSOR\", \"extendedAddress\" : \"POBOX\", \"details\" : \"true\", \"phoneUpdate\" : \"false\", \"address\" : \"111 MAIN STREET EPP\", \"phoneNumber\" : \"12267306306\", \"consentStatus\" : \"optedIn\" }" } }, "TUIDVData" : { "ResponseData" : "{\"Authentication\":{\"Status\":\"PasswordHasExpired\",\"Token\":\"649a0200-9e73-47c3-9ab1-4d396b32e343\"},\"ContextData\":[{\"Key\":\"AlertsRisk\",\"Value\":\"\"},{\"Key\":\"AlertsScore\",\"Value\":\"\"},{\"Key\":\"CreditFreezeMessage\",\"Value\":\"\"},{\"Key\":\"Decision\",\"Value\":\"ExternalId Not Unique\"},{\"Key\":\"EBVSIDRemarks\",\"Value\":\"\"},{\"Key\":\"EBVSIDResult\",\"Value\":\"\"},{\"Key\":\"EBVSRemarks\",\"Value\":\"\"},{\"Key\":\"EBVSResult\",\"Value\":\"\"},{\"Key\":\"EDIRSMatch\",\"Value\":\"\"},{\"Key\":\"EDIRSRemarks\",\"Value\":\"\"},{\"Key\":\"ErrorCode\",\"Value\":\"\"},{\"Key\":\"ErrorMessage\",\"Value\":\"\"},{\"Key\":\"ExternalApplicationId\",\"Value\":\"cac9cb6c-cc2b-4966-b78c-fda8d11d1107\"},{\"Key\":\"HRFAAlertCode\",\"Value\":\"\"},{\"Key\":\"IDMismatchAlertCode\",\"Value\":\"\"},{\"Key\":\"IDXValue\",\"Value\":\"\"},{\"Key\":\"OtherAlertCode\",\"Value\":\"\"},{\"Key\":\"TEResponse\",\"Value\":\"\"}],\"ErrorInfo\":null,\"ExceptionInfo\":null,\"ResponseInfo\":{\"ApplicationId\":1170048,\"CurrentQueue\":null,\"SolutionSetInstanceId\":\"07bd2eb8-13d0-4f71-abb2-22b324dd4412\"},\"Status\":\"Success\"}", "Request" : "{ \"Authentication\" : { \"Type\" : \"OnDemand\", \"Password\" : \"NaMMartxW@UAT22\", \"UserId\" : \"NMMartWxUAT\" }, \"RequestInfo\" : { \"SolutionSetId\" : 101, \"ExecuteLatestVersion\" : true, \"ExecutionMode\" : 3 }, \"Fields\" :  [ { \"Value\" : \"cac9cb6c-cc2b-4966-b78c-fda8d11d1107\", \"Key\" : \"ExternalApplicationId\" } , { \"Key\" : \"TUAdditionalData\", \"Value\" : \"<TUAdditionalData><ReferenceID><\\\/ReferenceID><\\\/TUAdditionalData>\" } , { \"Key\" : \"Applicant\", \"Value\" : \"<Applicant><AddressCity>WINDSOR<\\\/AddressCity><AddressLine1>111<\\\/AddressLine1><AddressLine2>MAIN STREET EPP<\\\/AddressLine2><AddressLine3>POBOX<\\\/AddressLine3><AddressPhoneNumber>2267306306<\\\/AddressPhoneNumber><AddressStProv>ON<\\\/AddressStProv><AddressZipPostal>L9L1L7<\\\/AddressZipPostal><BirthDate>01\\\/01\\\/1980<\\\/BirthDate><CreditCard\\\/><FirstName>AUTOMATION<\\\/FirstName><HouseNumber\\\/><LastName>EPP<\\\/LastName><SIN>0<\\\/SIN><Email>automationepp@yopmail.com<\\\/Email><\\\/Applicant>\" } ] }" }, "iOvation" : { "Request" : "{ \"PDCRequestModel\" : { \"ConnectionRequestModel\" : { \"IsProduction\" : \"N\", \"Password\" : \"C86RZQP6\", \"SubscriberId\" : \"1008002\", \"SubscriberAccount\" : \"OLTP\", \"URL\" : \"https:\\\/\\\/ci-api.iovation.com\\\/fraud\\\/v1\\\/subs\\\/1008002\\\/checks\" }, \"VendorRequestModel\" : { \"FraudCheckRequest\" : { \"accountCode\" : \"4241256\", \"statedIp\" : \"\", \"blackbox\" : \"0400IxGymm+ecRApIfq2LLtL\\\/YvcsfyuRLwW+tgpxQubg58CP3I\\\/gtJSIJV5spq18yMgnYj573E7Iuw0Ao8YwrWw8IK2s+yCEvteHSQeW2PoOkqGvO9AznnbGH6gbHFJIM7LZOY6osDdKdHBMme59wUE3AMtb3HyFQpe0HU46WiQeQychKR88G68ZR8N89l5OQm2jiBw+A1z+AjxVajijX\\\/olNaNWTFA98K1kzBwTWB2tv63TYXLqG\\\/PYD9cOKz71oiY2Z05GGzgVUoGVmn5abL2tM27126SA7Y8a0Yy5JnHYpMZztSgbeI4F+ZHAONCxENwRauBhBs7l4rp+OgKcvQY\\\/KsWqbSA7hfvPlCbv9OjH\\\/7Sd8lPQmTzUx5zMLDBfZSd6YxIg4pW8d4PYles1Cd8GWfW+OT4VDEvzcUpvL7i46vboVXI0lYIwO3CC2NhHgK1VYVj16JhEVQPbsw1aMtbmwUFIVQeXLeNHKAOi8tmIb6U\\\/P6iJLR7yvaR6LBvm0T5uRCqyaoGqghgPFzkHqCvgjioKC0esYpqoBDnDAtreTWP+JjueldSQHuiB+bie+N3U6bYBeX\\\/+fVme\\\/hJzHwuC+nfx5zZIfygHBv9mgwqmQ+9DyqGK3FcpWuFVxioCqEB1zZzk\\\/zddTWPrBb6lnPIOTaFckwxfD6sqgxBwcdDGoLJdMmZcnuGlz5Y7m0DsmfpXcRjRsoVFFGLqCpize7FnIMsweYB5o2efCT4iNnP60AKOVTTL2g136yNzGkmK4M7ISKiq4yvoHcgBVMDdOYV83MnEYUvBMAKTEVdGJlxBwCc8acbcKqAuWf7gouzBPJaEMCy0s3hRLlX3uHnT\\\/mMqxLKep0gAiQmHvk\\\/hHV\\\/gje7rzbxH0ZCbqQct2fIUhDB51W+7h4F0Bl+6I2GuOQuzs7CtO3dJGseSdu3DZ2D0kFLMrPrMVvJlvLE8xAy\\\/thn2bG0spfZB+fqyEJHiMpz051uLGcSxj7utSVPrbgATwhO44oNAQPdfLI+vS3zO1UWOjx45x9ZlwPXIj00GhUM5u6KD\\\/Ap4zXwZpQRyqKemuJqTUnBSvUYsNwTidneZ5Wedvp3EOKiSx7uHGOjLfVqUWaUEcqinpriak1JwUr1GLDcE4nZ3meVnnb6dxDiokse7hxjoy31alFmlBHKop6a4ulGXILklDIVCbryu9G8AaRxi\\\/UgQBHzx8F2KsGbJ8OVSp+CCNJ+Oiiusa2jjh0Vn3enZWPFEyBIiSkiHcDvTuX25RSePujSdbOIEGRVtmo0sOt9vkDwzHjYiiWsj36e1HxilE3\\\/fO91tNFIxsV78evcQ9skafNzmBt5UbxlEfj1eFDqAFOe+Vhkh8ZC8W2G9h0Zz11FOyenK80rTTIncqkU7tBhT4k51Mph2b\\\/YKeOG4m2elR0c67N1avur7wNfbjWAbv50krowBfyJjLLmO9JLh7h\\\/QYTtLe2xNqKbzYmgq4HnEqNOos1c6njJgQh\\\/4vXJiqy0MXMQOThNipDmXv9I185O+yC2f3lLEO0Tay66NZEyiLNePemJKSIdwO9O5ZtntuUkG6NTUNqjV7CWFCQGLDM4fZkS+HhVKFtj4RUEN0wvpmFXnIR+huI6Fw40k82cGDz2TnqsW6E5T7SjbTtev6OoVXoHkPYZu6nTy+ivk+cVXJiV2yLKf2hhwqstJ0+N0eY\\\/qPMOG48sztH19\\\/M8qT7IXSEah33EPopga4\\\/Z04YD8VNkZCgcG\\\/2aDCqZD70PKoYrcVylUrVKkxIukHHZsbSyl9kH57Mc\\\/hl2WkFqvOqKtZ4+cfuOh9ltHZfQIggPoVjqnTR6FC6A4XHytZ6BH0kBo9oIFLtrb8rBJJ6K68jg7k+98ztAMvf453+jNntJVZD+QENWY1RZdCaUj564z\\\/r3ZI1RR0SnBERVVVl9SC6l\\\/f6jbkBY3J0mJaSj3zCjsvqbnRLgpBTaQkqeXvFne+BGqFzvmGkfQ5QbizrOTvrw1FsoL9pEqRCywcAY8E7FRs8JMeBQOR15DxmBjdgJ9NENDjlRzy\\\/J5iYuF+aeJM5U71P7BmcxMGNoJ1B0Aq1cxkGQhlBS4I7+54o96dXwHHHMashvis+g1P20SdmM84Mf7hr7pMF5NwxGnasJddnA8Er1lTrvrxEysF6AiAfprAQcEs+LgKui8ZkJRwlSU6W2i1wcQq6PdDkRd1IO43oPnim0G11ltDek4XruSLvPqsDt0m3xVpvAOwUJ41gW68mLydf6U6dO1rICuDljgXr\\\/uGqwuC6J9nVT3fG0GV\\\/\\\/OQJo7ayRCI9SX9aYdtQUYk7+5ftauo5\\\/i\\\/ktJt2VD37hJDZ2tp2VteaOKducuGFcVgDw1bv1g5tEXbQFJHExTpwnvBPaUKx+RopVGpXg18HhSmjN\\\/umvqw7OBTB+7KeTnBXum2nFfO+wPwB7YcyEkrboGV03a9LJ\\\/0dzHTE+MaKwReiykUAcLabBz5+4d+T+mvvWgPnrWryqAK7srERlwk8YOlJ2pDaFEbCVLS9EhrEfVk9EjAzqePD+6MDJh1uQPP11IvR0irvLb63mL6uDy5yaZZGYc4egzwDmhI\\\/WTaMX6CJdfSzBurD2LfdQorpofeiMYx56MR6RVQj+8q198guqrAGw\\\/cFLCjbqyzRmwTzgsQZX\\\/ATvmKfB720ycJFCjZRgugovQQ==\", \"type\" : \"Canada Online Loans\", \"transactionInsight\" : { \"email\" : \"automationepp@yopmail.com\" } } } } }", "ResponseData" : "{\"id\":\"217a60b6-3816-4150-b2c5-ec4979f272fd\",\"result\":\"A\",\"accountCode\":\"4241256\",\"trackingNumber\":144736359320906925,\"details\":{\"device\":{\"alias\":380023146675941129,\"blackboxMetadata\":{\"age\":325,\"timestamp\":\"2023-07-13T12:47:03Z\"},\"browser\":{\"cookiesEnabled\":true,\"configuredLanguage\":\"EN-US,EN;Q=0.9\",\"language\":\"EN-US\",\"type\":\"CHROME\",\"timezone\":\"-330\",\"version\":\"114.0.0.0\"},\"firstSeen\":\"2023-07-13T07:30:57.924Z\",\"isNew\":false,\"os\":\"WINDOWS NT 10.0\",\"screen\":\"768X1366\",\"type\":\"WINDOWS\"},\"realIp\":{\"address\":\"216.87.46.45\",\"isp\":\"MONEY MART FINANCIAL SERVICES GROUP\",\"ipLocation\":{\"city\":\"DUMONT\",\"country\":\"UNITED STATES\",\"countryCode\":\"US\",\"latitude\":40.95061,\"longitude\":-74.00077,\"region\":\"NEW JERSEY\"},\"parentOrganization\":\"MONEY MART FINANCIAL SERVICES GROUP\",\"source\":\"iovation\"},\"ruleResults\":{\"score\":0,\"rulesMatched\":0}}}" } }, "FeatureStoreAPI" :  [ { "ModelName" : "CaSPLML", "Request" : "{ \"SessionId\" : \"cac9cb6c-cc2b-4966-b78c-fda8d11d1107\", \"ModelName\" : \"CaSPLML\", \"Parameters\" :  [ { \"Value\" : \"4241256\", \"Name\" : \"customerid\" } , { \"Value\" : \"L9L1L7\", \"Name\" : \"custPostalCode\" } , { \"Value\" : \"PK0L1C0\", \"Name\" : \"storePostalCode\" } ] }", "Response" : "{\"sessionId\":\"cac9cb6c-cc2b-4966-b78c-fda8d11d1107\",\"modelName\":\"CaSPLML\",\"result\":{\"query_dt_stamp\":\"2023-07-13T05:52:26.197\",\"spl_count\":445960,\"il_count\":441110,\"warning\":null,\"customerid\":4241256,\"spl_asofdate\":null,\"il_asofdate\":null,\"spl_app_last_3yr_nbr\":null,\"spl_fpd_freq_monthly_3yrs\":null,\"spl_top_store_count_3yrs\":null,\"spl_days_since_recent_dpd30_3yrs\":null,\"spl_funded_last_3yr_nbr\":null,\"spl_inc_occur_pct_princ_3yrs\":null,\"spl_ach_pay_nbr_pct_3yrs\":null,\"spl_payments_nbr_3yrs\":null,\"spl_recent_util_3yrs\":null,\"spl_avg_util_3yrs\":null,\"spl_recent_term_util_3yrs\":null,\"spl_cust_age_nbr_since_3yr\":null,\"spl_cash_pay_nbr_3yrs\":null,\"spl_booked_freq_monthly_3yrs\":null,\"spl_dec_occur_pct_util_3yrs\":null,\"spl_passdue_last_3yr_nbr\":null,\"spl_funded_last_365dd_nbr\":null,\"spl_unpaid_last_3yr_amt\":null,\"spl_dec_occur_pct_tenure_3yrs\":null,\"spl_top_channel_3yrs\":null,\"spl_top_loantype_3yrs\":null,\"spl_top_address_postalcd_3yrs\":null,\"spl_top_storenumber_3yrs\":null,\"spl_recent_pause_3yrs\":null,\"spl_avg_pause_3yrs\":null,\"spl_stdev_pause_3yrs\":null,\"IL_Del_last_3yr_nbr\":null,\"IL_returned_payments_last_30d_nbr\":null,\"IL_ACH_payments_last_365d_nbr\":null,\"IL_reject_last_3yr_ratio\":null,\"distance\":null},\"error\":null}" } ] }
+
+######################RESPONSE FROM API END#############################
+Test Started : And verify the API validatioins
+Test Finished : And verify the API validatioins
+Test Started : And Show request for investigation
+Test Finished : And Show request for investigation
+Test Started : And Show response for investigation
+Test Finished : And Show response for investigation
+*********************** LOAN DETAILS *****************************
+Loan Id : 44798891
+Customer Id : 4241256
+Loan Type Id : 2
+Loan Status Id : 3
+*********************** LOAN DETAILS *****************************
+Test Started : And Initialize Loan Details and write to excel
+Test Finished : And Initialize Loan Details and write to excel
+###################################################
+select CAST(CustomerId as VARCHAR(15)) AS CustomerId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(ParentLoanId AS VARCHAR(15)) AS ParentLoanId, CAST(channeltypeid as VARCHAR(15)) as channeltypeid, CAST(EffectiveDate as VARCHAR(25)) as EffectiveDate,CAST(APR AS VARCHAR(10)) AS APR, CAST(StateCode as VARCHAR(5)) as StateCode, CAST(LoanContractNumber AS VARCHAR(25)) AS LoanContractNumber, CAST(LoanStatusId as VARCHAR(5)) as LoanStatusId, CAST(LoanTypeId as VARCHAR(5)) as LoanTypeId,CAST(TotalAmount as VARCHAR(10)) as TotalAmount,CAST(Principal as VARCHAR(10)) as Principal,CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId,CAST(RepaymentTypeId as VARCHAR(5)) as RepaymentTypeId from VitaPDLCAN..Loan where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ Loan Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: CustomerId, LoanId, ParentLoanId, channeltypeid, EffectiveDate, APR, StateCode, LoanContractNumber, LoanStatusId, LoanTypeId, TotalAmount, Principal, PaymentTypeId, RepaymentTypeId
+Loan Details table row :1: 4241256 44798891 0 2 Jul 17 2023 12:00AM 232.98 ON S-4241256-130723-06 3 2 230.00 200.00 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Loan details in logger for investigation
+Test Finished : And log all the Loan details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(RefinanceCount AS VARCHAR(15)) AS RefinanceCount, CAST(LoanTerm as VARCHAR(15)) as LoanTerm  from VitaPDLCAN..LoanDetail where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanDetail Table Info ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: LoanId, RefinanceCount, LoanTerm
+Loan Details table row :1: 44798891 0 2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Loandetail in logger for investigation
+Test Finished : And log all the Loandetail in logger for investigation
+###################################################
+select Note, Other from VitaPDLCAN..LoanNote where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanNote ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Note table row :0: Note, Other
+Loan Note table row :1: Loan initiated  :  null
+Loan Note table row :2: ILGuardrailCustomerType-None  :  None
+Loan Note table row :3: ThirdPartyUWFlow  :  Provenir
+Loan Note table row :4: Underwriting Approved  :  
+Loan Note table row :5: ThirdPartyAPR  :  15.0
+Loan Note table row :6: Technical Error while fraud verification  :  62
+Loan Note table row :7: Existing customer reapplies within 7 business days of closing previous loan  :  62
+Loan Note table row :8: SPLNONFLINKSCUSTOMER  :  62
+Loan Note table row :9: Allowable: mobile  :  62
+Loan Note table row :10: Loan has been sent to CSC for approval  :  
+Loan Note table row :11:   :  
+Loan Note table row :12: Loan queued for EFT funding  :  38373917
+Loan Note table row :13: Loan funded through EFT  :  38373917
+Loan Note table row :14: Loan finalized  :  null
+Loan Note table row :15: Loan has been activated  :  null
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Note details in logger for investigation
+Test Finished : And log all the Note details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(Amount as VARCHAR(15)) AS Amount, CAST(Principal as VARCHAR(15)) AS Principal, CAST(Returned AS VARCHAR(5)) AS Returned, CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId, CAST(LoanPaymentStatusId as VARCHAR(5)) as LoanPaymentStatusId from VitaPDLCAN..LoanPayment where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanPayment ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Payments table row :0: LoanId, Amount, Principal, Returned, PaymentTypeId, LoanPaymentStatusId
+Loan Payments table row :1: 44798891 200.00 200.00 0 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all payment details in logger for investigation
+Test Finished : And log all payment details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(PaymentAmount AS VARCHAR(15)) AS PaymentAmount, CAST(MonthlyPaymentAmount as VARCHAR(15)) as MonthlyPaymentAmount  from VitaPDLCAN..LoanPaymentHeader where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^ LoanPaymentHeader Details ^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: LoanId, PaymentAmount, MonthlyPaymentAmount
+Loan Details table row :1: 44798891 115.00 115.00
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the LoanPaymentHeader in logger for investigation
+Test Finished : And log all the LoanPaymentHeader in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CalculatedValue AS VARCHAR(15)) AS FeeCalculatedValue  from VitaPDLCAN..LoanFee where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^ LoanFee Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: LoanId, FeeCalculatedValue
+Loan Details table row :1: 44798891 0.00
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the LoanFee in logger for investigation
+Test Finished : And log all the LoanFee in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(TransactionTypeId as VARCHAR(15)) as TransactionTypeId, CAST(Amount as VARCHAR(15)) as Amount, CAST(Principal as VARCHAR(15)) as Principal, CAST(CreatedByUserName as VARCHAR(15)) as CreatedByUserName from VitaPDLCAN..LoanTransaction where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanTransaction ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Transaction table row :0: LoanId, TransactionTypeId, Amount, Principal, CreatedByUserName
+Loan Transaction table row :1: 44798891 1 230.00 200.00 null
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all Transaction details in logger for investigation
+Test Finished : And log all Transaction details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(Customerid AS VARCHAR(15)) AS Customerid, CAST(CreditLimit AS VARCHAR(15)) AS CreditLimit, CAST(CreditScore AS VARCHAR(15)) AS CreditScore  from VitaPDLCAN..CustomerCredit where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^ CustomerCredit Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: LoanId, Customerid, CreditLimit, CreditScore
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the CustomerCredit in logger for investigation
+Test Finished : And log all the CustomerCredit in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(EFTRequest as VARCHAR(2000)) AS EFTRequest from VitaPDLCAN..EFTLog where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ EFTLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan EFTLog table row :0: LoanId, CustomerId, EFTRequest
+Loan EFTLog table row :1: 44798891 4241256 <VitaEFTTransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Amount>200.0000</Amount><BankTransactionID>0</BankTransactionID><BatchNumber>0</BatchNumber><DepositDate>0001-01-01T00:00:00</DepositDate><EffectiveDate>2023-07-13T00:00:00</EffectiveDate><ProductRefID>2</ProductRefID><SourceRefID>38373917</SourceRefID><SourceSystemID>3</SourceSystemID><StationID>414</StationID><SubProductID>8</SubProductID><TransactionType>Credit</TransactionType><Customer><Address>111 MAIN STREET EPP</Address><City>WINDSOR</City><Country>CA</Country><FirstName>AUTOMATION</FirstName><LastName>EPP</LastName><PostCode>L9L1L7</PostCode><State>ON</State></Customer><CustomerBank><BankABA/><BankAccount>131312</BankAccount><BranchID>00011</BranchID><InstitutionID>001</InstitutionID></CustomerBank><BankValueDate>2023-07-13T00:00:00</BankValueDate></VitaEFTTransaction>
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all EFTLog details in logger for investigation
+Test Finished : And log all EFTLog details in logger for investigation
+###################################################
+select CAST(ETransferLogId as VARCHAR(15)) AS ETransferLogId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(LoanPaymentId as VARCHAR(15)) AS LoanPaymentId , CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(ETransferRequest as VARCHAR(2000)) AS ETransferRequest,CAST(ETransferResponse as VARCHAR(2000)) AS ETransferResponse from VitaPDLCAN..ETransferLog where LoanId = '44798891'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ ETransferLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan ETransferLog table row :0: ETransferLogId, LoanId, LoanPaymentId, CustomerId, ETransferRequest, ETransferResponse
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all ETransferLog details in logger for investigation
+Test Finished : And log all ETransferLog details in logger for investigation
+***********************************************************
+End Time : 13_07_2023_18-22-48
+***********************************************************
+Tests finished! Number of test Steps: 32

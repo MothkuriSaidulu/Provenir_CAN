@@ -1,0 +1,10 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC08_Verify_Loan_decission_is_denied_when_Debt_ratio_does_not_fall_in_the_valid_range_allowed|TC08_DebtRatio_Invld_Decl
+###################################################
+***********************************************************
+Start Time : 26_04_2023_15-09-28
+TC08_DEBTRATIO_INVLD_DECL
+TC08_DEBTRATIO_INVLD_DECL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin

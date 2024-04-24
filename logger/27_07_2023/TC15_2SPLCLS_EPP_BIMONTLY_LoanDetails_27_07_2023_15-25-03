@@ -1,0 +1,12 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC15_ON_Verify the EPP Terms pay frequency for customer with Bi-Monthly frequency|TC15_2SplCls_EPP_BiMontly
+###################################################
+***********************************************************
+Start Time : 27_07_2023_15-25-03
+TC15_2SPLCLS_EPP_BIMONTLY
+TC15_2SPLCLS_EPP_BIMONTLY_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer
+Test Started : And sign the customer
+Test Finished : And sign the customer

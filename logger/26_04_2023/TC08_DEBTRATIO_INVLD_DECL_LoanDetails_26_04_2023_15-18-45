@@ -1,0 +1,51 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC08_Verify_Loan_decission_is_denied_when_Debt_ratio_does_not_fall_in_the_valid_range_allowed|TC08_DebtRatio_Invld_Decl
+###################################################
+***********************************************************
+Start Time : 26_04_2023_15-18-45
+TC08_DEBTRATIO_INVLD_DECL
+TC08_DEBTRATIO_INVLD_DECL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+qahuv
+=================Customer Name====================
+=================Customer Email====================
+dave_qahuv@yopmail.com
+=================Customer Email====================
+641887
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://qac.moneymart.ca/my-account/sign-up
+^^^^^^^^^^^^^^^^^^^^ENVIRONMENT URL^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+#######################PHONENO THREASHOLD############################
+Update VitaCrmCAN..CustomerPhone set PhoneNumber = '9898989898' where CustomerID in (4236575,4236621)
+#######################PHONENO THREASHOLD############################
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And Run the TU query general D "1" and FICO score "710"
+Test Finished : And Run the TU query general D "1" and FICO score "710"
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And Verify loan decision denied
+Test Finished : And Verify loan decision denied
+***********************************************************
+End Time : 26_04_2023_15-24-09
+***********************************************************
+Tests finished! Number of test Steps : 14

@@ -1,0 +1,28 @@
+###################################################
+Executing Scenario : PRO_CAN_Online_TC13_CAN BC_Online_verify netpay calculation , loan amount , loan fee, total loan amount with loan term for Multiple employer with different frequency.feature|TC13_Exst_SPL_Mlt_Emp_mlt_frq
+###################################################
+***********************************************************
+Start Time : 24_07_2023_12-03-52
+TC13_EXST_SPL_MLT_EMP_MLT_FRQ
+TC13_EXST_SPL_MLT_EMP_MLT_FRQ_DS1
+***********************************************************
+Test Started : Given Pre-requisite data load for customer
+Test Finished : Given Pre-requisite data load for customer
+Test Started : And sign the customer
+Test Finished : And sign the customer
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl reloan
+Test Finished : And User provides basic information for spl reloan
+Test Started : And Provides income information Multi Employer with Monthly Weekly Bi_Weekly frequency
+Test Finished : And Provides income information Multi Employer with Monthly Weekly Bi_Weekly frequency
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : Then Send verification code and get and enter otp and validate
+Test Finished : Then Send verification code and get and enter otp and validate
+Test Started : And select the funding types
+Test Finished : And select the funding types
+***********************************************************
+End Time : 24_07_2023_12-10-25
+***********************************************************
+Tests finished! Number of test Steps : 9
